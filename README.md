@@ -72,6 +72,7 @@
 ## **🏗️ Structure du Projet**
 
 Guide-Tech-Questions/
+
 ├── index.html          # Page principale
 ├── styles.css          # Styles CSS complets avec variables
 ├── JavaScript.js       # Fonctionnalités interactives
