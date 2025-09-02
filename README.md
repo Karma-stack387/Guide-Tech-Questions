@@ -44,8 +44,9 @@
 
 1. Clonez le référentiel :
 Pour faire fonctionner ce projet en local, suivez ces étapes :
+
 `git clone https://github.com/Karma-stack387/Guide-Tech-Questions.git`
-2. Ouvrez ***index.html*** dans votre navigateur ou servez-le avec un serveur local :
+3. Ouvrez ***index.html*** dans votre navigateur ou servez-le avec un serveur local :
 
 ##Alternatives pour un serveur local
 
