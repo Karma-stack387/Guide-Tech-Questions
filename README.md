@@ -72,13 +72,13 @@
 ## **🏗️ Structure du Projet**
 
 
-| Fichier/Dossier        | Description                               |
+| *Fichier/Dossier*      | *Description*                             |
 |------------------------|-------------------------------------------|
-| `Guide-Tech-Questions/`| Répertoire racine                         |
-| `index.html`           | Page principale                           |
-| `styles.css`           | Styles CSS complets                       |
-| `JavaScript.js`        | Fonctionnalités interactives              |
-| `img/`                 | Contient les images                       |
-| `img1.png`             | Favicon et images pour réseaux sociaux    |
-| `README.md`            | Documentation du projet                   |
-| `LICENCE.md`           | Licence du projet                         |
+| `Guide-Tech-Questions/`| ***Répertoire racine***                   |
+| `index.html`           | ***Page principale***                     |
+| `styles.css`           | ***Styles CSS complets***                 |
+| `JavaScript.js`        | ***Fonctionnalités interactives***        |
+| `img `                 | ***Contient les images***                 |
+| `img1.png`             | ***Favicon et images pour réseaux sociaux*** |
+| `README.md`            | ***Documentation du projet***             |
+| `LICENCE.md`           | ***Licence du projet***                   |
