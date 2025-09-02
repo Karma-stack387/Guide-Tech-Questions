@@ -2,7 +2,6 @@
 
 ***Guide-Tech-Questions est un guide interactif moderne qui enseigne l'art de poser des questions techniques de manière efficace. Conçu spécialement pour les développeurs et les communautés techniques, ce projet combine un design élégant avec une expérience utilisateur optimale.***
 
----
 
 ## **✨ Fonctionnalités**
 
@@ -22,7 +21,6 @@
 * 📖 Navigation interactive avec table des matières
 * ⚡ Performances optimisées avec chargement paresseux
 
----
 
 ## 🛠️ **Technologies Utilisées**
 
@@ -42,7 +40,6 @@
 * Google Fonts (Inter)
 * LocalStorage pour la persistance des préférences
 
----
 
 ## **📦 Installation et démarrage local**
 
@@ -64,7 +61,6 @@
 * Avec PHP<br>
 `php -S localhost:8000`
 
----
 
 ## **📖 Utilisation**
 
@@ -75,7 +71,6 @@
 * **Recherche de contenu :** Recherchez du contenu spécifique à l'aide de la barre de recherche.
 * **Sélection de langue :** Changez de langue selon votre préférence (Français/Anglais) en utilisant le sélecteur de langue.
 
----
 
 ## **🏗️ Structure du Projet**
 
@@ -105,7 +100,6 @@
 | `Edge` | ***✅ Versions 79+***     | ***Le design est entièrement adaptatif.***                                                 |
 | `Mobile Browsers` | ***✅ Tous les téléphones et écran***s | ***Le design est entièrement adaptatif***. |
 
----
 
 ## **🌐 Suivez-nous sur WhatsApp**
 
@@ -113,7 +107,6 @@
 
 [![Rejoignez-nous sur WhatsApp](https://img.shields.io/badge/WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb5xlNT6WaKwYRn7zl0S)
 
----
 
 ## **📄 Licence**
 
@@ -123,10 +116,9 @@ Ce projet est sous licence **Creative Commons Attribution-NonCommercial-ShareAli
 
 Pour plus de détails, veuillez consulter le fichier `LICENCE.md`.
 
----
 
 ## **👥 Auteur**
 
 *祐 ☣︎ 𝐊𝐢𝐥𝐥𝐮𝐚_𝐒𝐡𝐢𝐨𝐤𝐚 ☣︎ 智* - Développeur et créateur
 
-`GitHub :` [@votre-username](https://github.com/Karma-stack387)
+`GitHub :` [@Karma-stack387](https://github.com/Karma-stack387)
