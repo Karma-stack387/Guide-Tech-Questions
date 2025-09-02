@@ -46,6 +46,7 @@
    
 Pour faire fonctionner ce projet en local, suivez ces étapes :<br>
 `git clone https://github.com/Karma-stack387/Guide-Tech-Questions.git`<br>
+
 2. Ouvrez ***index.html*** dans votre navigateur ou servez-le avec un serveur local :
 
 ##Alternatives pour un serveur local
