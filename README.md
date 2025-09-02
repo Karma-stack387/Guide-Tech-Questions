@@ -82,3 +82,16 @@
 | `img1.png`             | ***Favicon et images pour réseaux sociaux*** |
 | `README.md`            | ***Documentation du projet***             |
 | `LICENCE.md`           | ***Licence du projet***                   |
+
+### **📱 Compatibilité**
+
+![Responsive](https://img.shields.io/badge/Responsive-Yes-green?style=for-the-badge)
+
+| *Navigateur*             | *Support*           | *Notes*                                           |
+|------------------------|---------------------|-------------------------------------------------|
+| `Chrome` | ***✅ Versions 70+***     | ***Le design est entièrement adaptatif.***                                                |
+| `Firefox` | ***✅ Versions 65+***     | ***Le design est entièrement adaptatif.***                                              |
+| `Safari` | ***✅ Versions 12+***     | ***Le design est entièrement adaptatif.***                                                 |
+| `Edge` | ***✅ Versions 79+***     | ***Le design est entièrement adaptatif.***                                                 |
+| `Mobile Browsers` | ***✅ Tous les téléphones et écran***s | ***Le design est entièrement adaptatif***. |
+
