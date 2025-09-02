@@ -74,11 +74,17 @@
 Guide-Tech-Questions/
 
 ├── index.html          # Page principale
+
 ├── styles.css          # Styles CSS complets avec variables
+
 ├── JavaScript.js       # Fonctionnalités interactives
+
 ├── img/
+
 │   └── img1.png        # Favicon et images
+
 ├── README.md           # Ce fichier
+
 └── LICENCE.md          # Licence du projet
 
 # <u>Votre texte à souligner ici</u>
