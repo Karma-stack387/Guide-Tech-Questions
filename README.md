@@ -59,3 +59,25 @@
 
 * Avec PHP<br>
 `php -S localhost:8000`
+
+## **📖 Utilisation**
+
+*Pour profiter au maximum de votre lecture, voici quelques conseils de navigation :*
+
+* **Navigation interactive :** Naviguez à travers les différentes sections via la table des matières située dans la barre latérale.
+* **Contrôles d'expérience :** Utilisez les boutons en haut de l'écran pour personnaliser votre expérience de lecture (changement de thème, taille de la police, contraste).
+* **Recherche de contenu :** Recherchez du contenu spécifique à l'aide de la barre de recherche.
+* **Sélection de langue :** Changez de langue selon votre préférence (Français/Anglais) en utilisant le sélecteur de langue.
+
+## **🏗️ Structure du Projet**
+
+Guide-Tech-Questions/
+├── index.html          # Page principale
+├── styles.css          # Styles CSS complets avec variables
+├── JavaScript.js       # Fonctionnalités interactives
+├── img/
+│   └── img1.png        # Favicon et images
+├── README.md           # Ce fichier
+└── LICENCE.md          # Licence du projet
+
+# <u>Votre texte à souligner ici</u>
