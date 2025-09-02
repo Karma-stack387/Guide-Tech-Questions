@@ -1,4 +1,4 @@
-**#📚 Guide-Tech-Questions**
+#**📚 Guide-Tech-Questions**
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://via.placeholder.com/800x400?text=Guide-Tech-Questions+Preview)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -10,7 +10,7 @@
 
 ***Guide-Tech-Questions est un guide interactif moderne qui enseigne l'art de poser des questions techniques de manière efficace. Conçu spécialement pour les développeurs et les communautés techniques, ce projet combine un design élégant avec une expérience utilisateur optimale.***
 
-**##✨ Fonctionnalités**
+##**✨ Fonctionnalités**
 
 ![Thèmes Multiples](https://img.shields.io/badge/Thèmes%20Multiples-Clair%20%7C%20Sombre-212529?style=for-the-badge)
 ![Recherche en temps réel](https://img.shields.io/badge/Recherche%20en%20temps%20réel-2D384D?style=for-the-badge)
@@ -28,7 +28,7 @@
 * 📖 Navigation interactive avec table des matières
 * ⚡ Performances optimisées avec chargement paresseux
 
-**##🛠️ Technologies Utilisées**
+##**🛠️ Technologies Utilisées**
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://via.placeholder.com/800x400?text=Guide-Tech-Questions+Preview)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -46,15 +46,16 @@
 * Google Fonts (Inter)
 * LocalStorage pour la persistance des préférences
 
-**##📦 Installation et démarrage local**
+##**📦 Installation et démarrage local**
 
 1. Clonez le référentiel :
 Pour faire fonctionner ce projet en local, suivez ces étapes :
 
 `git clone https://github.com/Karma-stack387/Guide-Tech-Questions.git`
-3. Ouvrez ***index.html*** dans votre navigateur ou servez-le avec un serveur local :
 
-**##Alternatives pour un serveur local**
+2. Ouvrez ***index.html*** dans votre navigateur ou servez-le avec un serveur local :
+
+##**Alternatives pour un serveur local**
 
 * Avec Python<br>
 `python -m http.server 8000`
