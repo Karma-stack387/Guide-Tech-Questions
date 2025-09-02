@@ -1,8 +1,8 @@
 # **📚 Guide-Tech-Questions**
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+241074327529)
-![Licence MIT](https://img.shields.io/badge/Licence-MIT-blue)
 
 ***Guide-Tech-Questions est un guide interactif moderne qui enseigne l'art de poser des questions techniques de manière efficace. Conçu spécialement pour les développeurs et les communautés techniques, ce projet combine un design élégant avec une expérience utilisateur optimale.***
+
+---
 
 ## **✨ Fonctionnalités**
 
@@ -22,6 +22,8 @@
 * 📖 Navigation interactive avec table des matières
 * ⚡ Performances optimisées avec chargement paresseux
 
+---
+
 ## 🛠️ **Technologies Utilisées**
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://via.placeholder.com/800x400?text=Guide-Tech-Questions+Preview)
@@ -39,6 +41,8 @@
 * Font Awesome pour les icônes
 * Google Fonts (Inter)
 * LocalStorage pour la persistance des préférences
+
+---
 
 ## **📦 Installation et démarrage local**
 
@@ -60,6 +64,8 @@
 * Avec PHP<br>
 `php -S localhost:8000`
 
+---
+
 ## **📖 Utilisation**
 
 *Pour profiter au maximum de votre lecture, voici quelques conseils de navigation :*
@@ -68,6 +74,8 @@
 * **Contrôles d'expérience :** Utilisez les boutons en haut de l'écran pour personnaliser votre expérience de lecture (changement de thème, taille de la police, contraste).
 * **Recherche de contenu :** Recherchez du contenu spécifique à l'aide de la barre de recherche.
 * **Sélection de langue :** Changez de langue selon votre préférence (Français/Anglais) en utilisant le sélecteur de langue.
+
+---
 
 ## **🏗️ Structure du Projet**
 
@@ -83,7 +91,9 @@
 | `README.md`            | ***Documentation du projet***             |
 | `LICENCE.md`           | ***Licence du projet***                   |
 
-### **📱 Compatibilité**
+---
+
+## **📱 Compatibilité**
 
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-green?style=for-the-badge)
 
@@ -95,7 +105,19 @@
 | `Edge` | ***✅ Versions 79+***     | ***Le design est entièrement adaptatif.***                                                 |
 | `Mobile Browsers` | ***✅ Tous les téléphones et écran***s | ***Le design est entièrement adaptatif***. |
 
-### 📄 Licence
+---
+
+## **🌐 Suivez-nous sur WhatsApp**
+
+*Suivez-nous pour les dernières mises à jour, annonces et informations du projet.*
+
+[![Rejoignez-nous sur WhatsApp](https://img.shields.io/badge/WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb5xlNT6WaKwYRn7zl0S)
+
+---
+
+## **📄 Licence**
+
+![Licence MIT](https://img.shields.io/badge/Licence-MIT-blue)
 
 Ce projet est sous licence **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**.
 
@@ -103,12 +125,8 @@ Pour plus de détails, veuillez consulter le fichier `LICENCE.md`.
 
 ---
 
-### 👥 Auteur
+## **👥 Auteur**
 
-**祐 ☣︎ 𝐊𝐢𝐥𝐥𝐮𝐚_𝐒𝐡𝐢𝐨𝐤𝐚 ☣︎ 智** - Développeur et créateur
+*祐 ☣︎ 𝐊𝐢𝐥𝐥𝐮𝐚_𝐒𝐡𝐢𝐨𝐤𝐚 ☣︎ 智* - Développeur et créateur
 
-GitHub : [@votre-username](https://github.com/votre-username)
-
-
-J'ai utilisé des en-têtes de niveau 3 (`###`) pour la Licence et l'Auteur, et j'ai mis en gras le nom de la licence. J'ai aussi ajouté un lien direct vers votre profil GitHub pour que les visiteurs puissent vous trouver facilement. Il vous suffit de remplacer `votre-username` par votre nom d'utilisateur.
-
+`GitHub :` [@votre-username](https://github.com/Karma-stack387)
