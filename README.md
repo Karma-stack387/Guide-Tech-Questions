@@ -44,12 +44,12 @@
 
 1. Clonez le référentiel :
    
-Pour faire fonctionner ce projet en local, suivez ces étapes :<br>
-`git clone https://github.com/Karma-stack387/Guide-Tech-Questions.git`<br>
+* Pour faire fonctionner ce projet en local, suivez ces étapes :<br>
+`git clone https://github.com/Karma-stack387/Guide-Tech-Questions.git`
 
 2. Ouvrez ***index.html*** dans votre navigateur ou servez-le avec un serveur local :
 
-##Alternatives pour un serveur local
+## **Alternatives pour un serveur local**
 
 * Avec Python<br>
 `python -m http.server 8000`
