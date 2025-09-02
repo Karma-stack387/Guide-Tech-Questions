@@ -88,3 +88,14 @@ Guide-Tech-Questions/
 └── LICENCE.md     ---     # Licence du projet
 
 <u>Votre texte à souligner ici</u>
+
+| Fichier/Dossier      | Description                               |
+|----------------------|-------------------------------------------|
+| `SmartQuestionGuide/`| Répertoire racine                         |
+| `├── index.html`     | Page principale                           |
+| `├── styles.css`     | Styles CSS complets                       |
+| `├── JavaScript.js`  | Fonctionnalités interactives              |
+| `├── img/`           | Contient les images                       |
+| `│   └── img1.png`   | Favicon et images pour réseaux sociaux    |
+| `├── README.md`      | Documentation du projet                   |
+| `└── LICENCE.md`     | Licence du projet                         |
