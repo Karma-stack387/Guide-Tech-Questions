@@ -87,7 +87,7 @@
 
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-green?style=for-the-badge)
 
-| *Navigateur*             | *Support*           | *Notes*                                           |
+| *Navigateur*             | *Support*           | *Observations*                                           |
 |------------------------|---------------------|-------------------------------------------------|
 | `Chrome` | ***✅ Versions 70+***     | ***Le design est entièrement adaptatif.***                                                |
 | `Firefox` | ***✅ Versions 65+***     | ***Le design est entièrement adaptatif.***                                              |
