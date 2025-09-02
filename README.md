@@ -103,15 +103,16 @@
 
 ## **🌐 Suivez-nous sur WhatsApp**
 
+[![Rejoignez-nous sur WhatsApp](https://img.shields.io/badge/WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb5xlNT6WaKwYRn7zl0S)
+
 *Suivez-nous pour les dernières mises à jour, annonces et informations du projet.*
 
-[![Rejoignez-nous sur WhatsApp](https://img.shields.io/badge/WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb5xlNT6WaKwYRn7zl0S)
 
 ## **⭐ Soutenez le Projet**
 
-*Si vous trouvez ce projet utile, n'oubliez pas de lui donner une étoile sur GitHub ! Votre soutien est précieux.*
-
 [![GitHub stars](https://img.shields.io/github/stars/votre-nom-d-utilisateur/nom-du-repo.svg?style=social&label=Star)](https://github.com/Karma-stack387/Guide-Tech-Questions)
+
+*Si vous trouvez ce projet utile, n'oubliez pas de lui donner une étoile sur GitHub ! Votre soutien est précieux.*
 
 
 ## **📄 Licence**
