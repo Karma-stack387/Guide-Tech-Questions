@@ -95,3 +95,20 @@
 | `Edge` | ***✅ Versions 79+***     | ***Le design est entièrement adaptatif.***                                                 |
 | `Mobile Browsers` | ***✅ Tous les téléphones et écran***s | ***Le design est entièrement adaptatif***. |
 
+### 📄 Licence
+
+Ce projet est sous licence **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**.
+
+Pour plus de détails, veuillez consulter le fichier `LICENCE.md`.
+
+---
+
+### 👥 Auteur
+
+**祐 ☣︎ 𝐊𝐢𝐥𝐥𝐮𝐚_𝐒𝐡𝐢𝐨𝐤𝐚 ☣︎ 智** - Développeur et créateur
+
+GitHub : [@votre-username](https://github.com/votre-username)
+
+
+J'ai utilisé des en-têtes de niveau 3 (`###`) pour la Licence et l'Auteur, et j'ai mis en gras le nom de la licence. J'ai aussi ajouté un lien direct vers votre profil GitHub pour que les visiteurs puissent vous trouver facilement. Il vous suffit de remplacer `votre-username` par votre nom d'utilisateur.
+
