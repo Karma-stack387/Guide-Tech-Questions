@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Apprenez à poser des questions intelligentes pour obtenir des réponses pertinentes dans les communautés techniques">
+    <title>Comment poser des questions de manière intelligente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="./img/img1.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-book"></i>
+                <span>祐 𝐍𝐮𝐜𝐥𝐞𝐚𝐫 𝐖𝐡𝐢𝐬𝐩𝐞𝐫 智 ❏ ⌜𝐓𝐄𝐂𝐇⌟ ❏</span>
+            </div>
+            <div class="controls">
+                <button class="btn theme-toggle" aria-label="Changer de thème">
+                    <i class="fas fa-moon"></i>
+                    <span data-translate="theme-text">Thème</span>
+                </button>
+                <button class="btn font-size-toggle" aria-label="Changer la taille du texte">
+                    <i class="fas fa-text-height"></i>
+                    <span data-translate="font-size-text">Taille du texte</span>
+                </button>
+                <button class="btn high-contrast-toggle" aria-label="Activer le contraste élevé">
+                    <i class="fas fa-adjust"></i>
+                    <span data-translate="contrast-text">Contraste</span>
+                </button>
+                <button class="btn lang-toggle" aria-label="Changer de langue">
+                    <i class="fas fa-language"></i>
+                    <span data-translate="lang-text">Fr</span>
+                </button>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Rechercher..." aria-label="Rechercher dans le document">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+            </div>
+            <button class="menu-toggle" aria-label="Menu mobile" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="menu-overlay"></div>
+    <div class="mobile-menu" aria-hidden="true">
+        <div class="controls">
+            <button class="btn theme-toggle" aria-label="Changer de thème">
+                <i class="fas fa-moon"></i>
+                <span data-translate="theme-text">Thème</span>
+            </button>
+            <button class="btn font-size-toggle" aria-label="Changer la taille du texte">
+                <i class="fas fa-text-height"></i>
+                <span data-translate="font-size-text">Taille du texte</span>
+            </button>
+            <button class="btn high-contrast-toggle" aria-label="Activer le contraste élevé">
+                <i class="fas fa-adjust"></i>
+                <span data-translate="contrast-text">Contraste</span>
+            </button>
+            <button class="btn lang-toggle" aria-label="Changer de langue">
+                <i class="fas fa-language"></i>
+                <span data-translate="lang-text">Fr</span>
+            </button>
+            <div class="search-container">
+                <input type="text" id="search-input-mobile" placeholder="Rechercher..." aria-label="Rechercher dans le document">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h3 class="toc-title">
+                <i class="fas fa-list-ol"></i>
+                <span data-translate="toc-title">Table des matières</span>
+            </h3>
+            <ul class="toc">
+                <li><a href="#intro"><i class="fas fa-info-circle"></i> <span data-translate="toc-intro">Introduction</span></a></li>
+                <li><a href="#problem"><i class="fas fa-bug"></i> <span data-translate="toc-problem">Le problème</span></a></li>
+                <li><a href="#guidelines"><i class="fas fa-lightbulb"></i> <span data-translate="toc-guidelines">Les lignes directrices</span></a></li>
+                <li><a href="#examples"><i class="fas fa-check"></i> <span data-translate="toc-examples">Bonnes et mauvaises questions</span></a></li>
+                <li><a href="#not_losing"><i class="fas fa-times-circle"></i> <span data-translate="toc-not_losing">Ne pas réagir comme un perdant</span></a></li>
+                <li><a href="#asking"><i class="fas fa-comment"></i> <span data-translate="toc-asking">Quand tu demandes</span></a></li>
+                <li><a href="#answers"><i class="fas fa-reply"></i> <span data-translate="toc-answers">Interpréter les réponses</span></a></li>
+                <li><a href="#classic"><i class="fas fa-ban"></i> <span data-translate="toc-classic">Questions à ne pas poser</span></a></li>
+                <li><a href="#example"><i class="fas fa-check-circle"></i> <span data-translate="toc-example">Exemples pratiques</span></a></li>
+                <li><a href="#etiquette"><i class="fas fa-users"></i> <span data-translate="toc-etiquette">Étiquette et bonnes pratiques</span></a></li>
+                <li><a href="#tips"><i class="fas fa-lightbulb"></i> <span data-translate="toc-tips">Astuces et techniques avancées</span></a></li>
+                <li><a href="#conclusion"><i class="fas fa-arrow-right"></i> <span data-translate="toc-conclusion">Conclusion</span></a></li>
+                <li><a href="#disclaimer"><i class="fas fa-exclamation-triangle"></i> <span data-translate="toc-disclaimer">Clauses de droit d'auteur</span></a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <article class="article">
+                <div class="titlepage">
+                    <h1 class="title" data-translate="title">Comment poser des questions de manière intelligente</h1>
+                    <div class="author-date-container">
+                        <div class="author-info">
+                            <h3><i class="fas fa-pen-nib"></i> <span data-translate="author">Auteur</span></h3>
+                            <p data-translate="author-name">祐 ☣︎ 𝐊𝐢𝐥𝐥𝐮𝐚_𝐒𝐡𝐢𝐨𝐤𝐚 ☣︎ 智</p>
+                        </div>
+                        <div class="author-info">
+                            <h3><i class="fas fa-calendar-days"></i> <span data-translate="publish-date">Date de publication</span></h3>
+                            <p data-translate="date-value">02 Septembre 2025</p>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p data-translate="copyright">&copy; 2025 祐 𝐍𝐮𝐜𝐥𝐞𝐚𝐫 𝐖𝐡𝐢𝐬𝐩𝐞𝐫 智 ❏ ⌜𝐓𝐄𝐂𝐇⌟ ❏. Tous droits réservés.</p>
+                    </div>
+                </div>
+
+                <div id="intro" class="sect1">
+                    <h2><i class="fas fa-info-circle"></i> <span data-translate="intro-title">Introduction</span></h2>
+                    <p data-translate="intro-content">Dans un monde où l'information est à portée de main, il est crucial de savoir comment la chercher efficacement. Que ce soit sur un forum de développeurs, un groupe d'assistance ou une plateforme de questions-réponses, la qualité de votre question détermine la qualité de la réponse que vous obtiendrez. Ce guide vous apprendra à formuler des questions claires, concises et pertinentes.</p>
+                    <div class="tip-box">
+                        <h3><i class="fas fa-lightbulb"></i> <span data-translate="cost-title">Le coût d'une mauvaise question</span></h3>
+                        <p data-translate="cost-content">Une question mal posée ne fait pas seulement perdre du temps à l'expert. Elle vous coûte également :</p>
+                        <ul>
+                            <li data-translate="cost-item1">Du temps d'attente pour une réponse qui ne viendra peut-être jamais</li>
+                            <li data-translate="cost-item2">Une réputation endommagée dans la communauté</li>
+                            <li data-translate="cost-item3">Des opportunités d'apprentissage manquées</li>
+                            <li data-translate="cost-item4">La possibilité de recevoir de l'aide à l'avenir</li>
+                        </ul>
+                    </div>
+                    
+                    <p data-translate="intro-content2">Maintenant que l'utilisation de l'open source s'est généralisée, on peut souvent obtenir des réponses aussi pertinentes de la part d'utilisateurs plus expérimentés que de hackers. C'est une bonne chose : les utilisateurs ont tendance à être un peu plus tolérants face aux échecs fréquents des débutants.</p>
+                    <p data-translate="intro-content3">Ce guide est conçu pour vous. Il a été pensé pour vous aider à progresser en comprenant les bases de la collaboration et de l'entraide. Il vous enseignera comment poser des questions pour obtenir des réponses utiles. Comprenez bien ceci : nous, les développeurs, ne sommes pas des machines à résoudre tous les problèmes du monde. Les bonnes questions sont celles qui ont déjà un minimum de travail derrière elles. Elles sont stimulantes et nous incitent à répondre.</p>
+                    
+                    <blockquote data-translate="quote">
+                        "Poser une bonne question, c'est déjà avoir la moitié de la réponse." - Proverbe de développeur
+                    </blockquote>
+                </div>
+
+                <div id="problem" class="sect1">
+                    <h2><i class="fas fa-bug"></i> <span data-translate="problem-title">Le problème</span></h2>
+                    <p data-translate="problem-content">Beaucoup de questions posées en ligne sont vagues, incomplètes ou manquent de contexte. Cela rend la tâche difficile pour les personnes qui souhaitent vous aider. Une question mal formulée peut non seulement vous faire perdre du temps, mais aussi décourager les autres de vous répondre, car ils ne savent pas par où commencer.</p>
+                    <div class="bad-example">
+                        <h3><i class="fas fa-times-circle"></i> <span data-translate="bad-example-title">Mauvais exemple :</span></h3>
+                        <p data-translate="bad-example-content">« Mon code ne marche pas. Aidez-moi ! »</p>
+                        <p data-translate="bad-example-desc">Cette question ne fournit aucune information sur le langage, le problème ou ce qui a été déjà tenté. Il est impossible d'y répondre sans demander plus de détails.</p>
+                    </div>
+                </div>
+
+                <div id="guidelines" class="sect1">
+                    <h2><i class="fas fa-lightbulb"></i> <span data-translate="guidelines-title">Les lignes directrices</span></h2>
+                    <p data-translate="guidelines-content">Pour poser une question de manière intelligente, suivez ces étapes clés :</p>
+                    <div class="procedure">
+                        <h3 data-translate="procedure-title">Procédure :</h3>
+                        <ol>
+                            <li data-translate="procedure-step1">Décrivez clairement le problème.</li>
+                            <li data-translate="procedure-step2">Fournissez le contexte nécessaire.</li>
+                            <li data-translate="procedure-step3">Incluez un exemple minimal, reproductible et complet (MRE).</li>
+                            <li data-translate="procedure-step4">Expliquez ce que vous avez déjà essayé.</li>
+                            <li data-translate="procedure-step5">Indiquez ce que vous attendez comme résultat.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div id="examples" class="sect1">
+                    <h2><i class="fas fa-check"></i> <span data-translate="examples-title">Bonnes et mauvaises questions</span></h2>
+                    <p data-translate="examples-content">Pour illustrer la différence entre une question intelligente et une question stupide, voici quelques exemples concrets.</p>
+                    
+                    <div class="bad-example">
+                        <h3><i class="fas fa-times-circle"></i> <span data-translate="bad-question-title">Mauvaise question</span></h3>
+                        <p data-translate="bad-question-content">"Mon code ne marche pas. Quelqu'un peut m'aider ?"</p>
+                        <p data-translate="bad-question-why">Pourquoi c'est mauvais :</p>
+                        <ul>
+                            <li data-translate="bad-question-reason1">Aucun détail sur le problème</li>
+                            <li data-translate="bad-question-reason2">Aucun code fourni</li>
+                            <li data-translate="bad-question-reason3">Aucune indication sur ce qui a été tenté</li>
+                            <li data-translate="bad-question-reason4">Montre un manque d'effort évident</li>
+                        </ul>
+                    </div>
+
+                    <div class="good-example">
+                        <h3><i class="fas fa-check-circle"></i> <span data-translate="good-question-title">Bonne question</span></h3>
+                        <p data-translate="good-question-content">"Bonjour, j'essaie de faire X avec Y, mais j'obtiens l'erreur Z. J'ai déjà consulté la documentation officielle à cette adresse et essayé les solutions A et B. Voici le code pertinent : print(\"salut\"). Quelqu'un aurait-il une idée de ce que je fais mal ?"</p>
+                        <p data-translate="good-question-why">Pourquoi c'est bon :</p>
+                        <ul>
+                            <li data-translate="good-question-reason1">Contexte clair et précis</li>
+                            <li data-translate="good-question-reason2">Montre les recherches effectuées</li>
+                            <li data-translate="good-question-reason3">Fournit le code nécessaire</li>
+                            <li data-translate="good-question-reason4">Respectueux et poli</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="not_losing" class="sect1">
+                    <h2><i class="fas fa-times-circle"></i> <span data-translate="not-losing-title">Ne pas réagir comme un perdant</span></h2>
+                    <p data-translate="not-losing-content1">Les hackers respectent la compétence et le travail, pas la faiblesse et l'impuissance. Quand vous obtenez une réponse qui vous déplaît, ne vous plaignez pas. Si vous vous lamentez, si vous criez à l'injustice, ou si vous exigez une autre réponse, vous prouvez simplement que vous ne comprenez pas comment ce monde fonctionne. Ne réagissez pas de manière agressive, c'est la meilleure façon de vous faire ignorer définitivement.</p>
+                    <p data-translate="not-losing-content2">Votre objectif est de résoudre votre problème, pas de vous plaindre. Restez calme, restez concentré, et si vous ne comprenez pas la réponse, continuez de chercher. Les bons hackers résolvent leurs propres problèmes, ils ne s'attendent pas à ce que les autres le fassent pour eux.</p>
+                </div>
+
+                <div id="asking" class="sect1">
+                    <h2><i class="fas fa-comment"></i> <span data-translate="asking-title">Quand tu demandes</span></h2>
+                    <p data-translate="asking-content1">Le choix du canal est crucial. Vous serez ignoré si vous vous trompez. Les hackers ne tolèrent pas les questions mal ciblées ou hors sujet. Si vous postez votre question sur un forum où elle n'a pas sa place, ou si vous envoyez un e-mail à une personne qui n'a rien à voir avec votre problème, vous perdez votre temps et vous nous faites perdre le nôtre.</p>
+                    <p data-translate="asking-content2">Faites preuve de discernement. Choisissez un forum adapté au niveau de votre question. Ne postez pas en double sur plusieurs groupes. Montrez que vous avez respecté les règles de la communauté avant de demander de l'aide.</p>
+                </div>
+
+                <div id="answers" class="sect1">
+                    <h2><i class="fas fa-reply"></i> <span data-translate="answers-title">Interpréter les réponses</span></h2>
+                    <p data-translate="answers-content1">Vous avez posé votre question. Félicitations. Maintenant, apprenez à lire les réponses. Il se peut qu'elles soient brèves, sèches, voire qu'elles vous renvoient à un manuel. Ce n'est pas un manque de respect. C'est simplement que les hackers sont des gens occupés. Quand une réponse est brève, elle est souvent précise. Lisez-la attentivement.</p>
+                    <p data-translate="answers-content2">N'ayez pas peur des retours directs, ils sont là pour vous aider à progresser. Si la réponse vous pointe vers une documentation, c'est que la solution s'y trouve déjà. Si vous ne comprenez toujours pas, c'est peut-être que vous devez réviser les bases.</p>
+                </div>
+
+                <div id="classic" class="sect1">
+                    <h2><i class="fas fa-ban"></i> <span data-translate="classic-title">Questions à ne pas poser</span></h2>
+                    <p data-translate="classic-content1">Il existe des questions qui ne méritent même pas d'être posées, car elles ne demandent qu'une recherche rapide et de la bonne volonté. Si vous demandez quelque chose qui peut être trouvé en cinq minutes sur Google, vous montrez que vous ne respectez pas notre temps, et le vôtre.</p>
+                    <div class="procedure">
+                        <p><strong data-translate="classic-content2">Voici quelques exemples de questions à éviter :</strong></p>
+                        <ul>
+                            <li data-translate="classic-example1">"Comment je fais pour... ?" (sans avoir cherché)</li>
+                            <li data-translate="classic-example2">"Quelqu'un peut-il m'aider ?" (sans donner de détails)</li>
+                            <li data-translate="classic-example3">"Pourquoi ça ne marche pas ?" (sans code ni contexte)</li>
+                            <li data-translate="classic-example4">"Est-ce que je peux vous poser une question ?" (posez-la directement)</li>
+                        </ul>
+                    </div>
+                    <p data-translate="classic-content3">Ces questions sont le signe d'un manque d'effort. Si vous voulez de l'aide, montrez que vous avez déjà essayé. Sinon, vous serez ignoré.</p>
+                </div>
+
+                <div id="example" class="sect1">
+                    <h2><i class="fas fa-check-circle"></i> <span data-translate="example-title">Exemples pratiques</span></h2>
+                    <p data-translate="example-content">Voyons comment appliquer les lignes directrices pour transformer une mauvaise question en une bonne question.</p>
+                    <div class="good-example">
+                        <h3 data-translate="good-example-title">Bon exemple :</h3>
+                        <p data-translate="good-example-content">« Je rencontre une erreur de syntaxe dans mon script Python. L'erreur 'SyntaxError: invalid syntax' se produit à la ligne 5. J'ai un dictionnaire et j'essaie d'accéder à une clé qui n'existe pas. J'ai déjà vérifié l'orthographe de la clé. Je m'attendais à ce que le code affiche un message d'erreur clair au lieu de se bloquer. Voici mon code :</p>
+                        <pre><code> mon_dict = {'a': 1, 'b': 2}
+print(mon_dict['c'])</code></pre>
+                        <p data-translate="good-example-desc">Cette question fournit toutes les informations nécessaires pour une réponse rapide et précise. Le problème est clairement identifié, le contexte est donné, le code est inclus et l'attente est expliquée.</p>
+                    </div>
+                </div>
+
+                <div id="etiquette" class="sect1">
+                    <h2><i class="fas fa-users"></i> <span data-translate="etiquette-title">Étiquette et bonnes pratiques</span></h2>
+                    <p data-translate="etiquette-content">Poser une bonne question, c'est aussi une question de respect envers la communauté. Voici quelques conseils supplémentaires :</p>
+                    <ul class="checklist">
+                        <li data-translate="etiquette-tip1">Faites une recherche avant de poser la question. Votre problème a peut-être déjà été résolu.</li>
+                        <li data-translate="etiquette-tip2">Soyez poli et remerciez la personne qui vous aide.</li>
+                        <li data-translate="etiquette-tip3">N'oubliez pas de mettre à jour votre question si vous trouvez la solution par vous-même.</li>
+                        <li data-translate="etiquette-tip4">Marquez la réponse comme "acceptée" si elle a résolu votre problème, pour aider d'autres personnes.</li>
+                        <li data-translate="etiquette-tip5">Utilisez un titre clair et descriptif pour votre question</li>
+                        <li data-translate="etiquette-tip6">Formatez correctement votre code</li>
+                    </ul>
+                    <div class="tip-box">
+                        <h3><i class="fas fa-star"></i> <span data-translate="pro-tip-title">Astuce pro</span></h3>
+                        <p data-translate="pro-tip-content">Utilisez des liens vers la documentation officielle et des références si possible pour donner encore plus de contexte à votre question.</p>
+                    </div>
+                </div>
+
+                <div id="tips" class="sect1">
+                    <h2><i class="fas fa-lightbulb"></i> <span data-translate="tips-title">Astuces et techniques avancées</span></h2>
+                    <p data-translate="tips-content">Maintenant que vous connaissez les bases, voici quelques astuces pour passer au niveau supérieur.</p>
+                    
+                    <div class="tip-box">
+                        <h3><i class="fas fa-magic"></i> <span data-translate="mirror-technique-title">La technique du miroir</span></h3>
+                        <p data-translate="mirror-technique-content">Avant de poster votre question, essaye de te mettre à la place de ceux qui vont la lire. Est-ce qu'elle est claire ? Est-ce qu'elle montre que vous avez fait des efforts ? Si vous étiez à leur place, est-ce que vous prendriez le temps d'y répondre ?</p>
+                    </div>
+                    
+                    <div class="tip-box">
+                        <h3><i class="fas fa-hourglass-half"></i> <span data-translate="patience-title">L'art de la patience</span></h3>
+                        <p data-translate="patience-content">Ne vous attendez pas à une réponse immédiate. Les experts sont occupés. Si vous ne recevez pas de réponse tout de suite, ne repostez pas votre question. Attendez au moins 24 heures avant de suivre.</p>
+                    </div>
+
+                    <div class="tip-box">
+                        <h3><i class="fas fa-graduation-cap"></i> <span data-translate="become-solution-title">Devenir la solution</span></h3>
+                        <p data-translate="become-solution-content">Le but ultime n'est pas de toujours demander de l'aide, mais de devenir capable de résoudre vos propres problèmes. À mesure que vous progressez, essayez de répondre aux questions des autres. C'est la meilleure façon de solidifier vos connaissances et de gagner le respect de la communauté.</p>
+                    </div>
+                    
+                    <div class="checklist">
+                        <p><strong data-translate="checklist-title">Checklist avant de poster :</strong></p>
+                        <ul>
+                            <li data-translate="checklist-item1">J'ai cherché sur Google et dans les archives du forum</li>
+                            <li data-translate="checklist-item2">J'ai lu la documentation pertinente</li>
+                            <li data-translate="checklist-item3">J'ai essayé de résoudre le problème par moi-même</li>
+                            <li data-translate="checklist-item4">J'ai fourni tous les détails nécessaires</li>
+                            <li data-translate="checklist-item5">J'ai relu ma question pour qu'elle soit claire et concise</li>
+                            <li data-translate="checklist-item6">J'ai choisi le bon canal pour ma question</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="conclusion" class="sect1">
+                    <h2><i class="fas fa-arrow-right"></i> <span data-translate="conclusion-title">Conclusion</span></h2>
+                    <blockquote>
+                        <p data-translate="conclusion-quote">Une question bien posée est à moitié répondue.</p>
+                    </blockquote>
+                    <p data-translate="conclusion-content">Apprendre à poser des questions intelligentes est une compétence précieuse qui vous fera gagner du temps et vous aidera à construire une bonne réputation en ligne. En suivant ce guide, vous obtiendrez non seulement des réponses plus rapidement, mais vous contribuerez aussi à la qualité des échanges au sein de la communauté.</p>
+                </div>
+
+                <div id="disclaimer" class="sect1">
+                    <h2><i class="fas fa-exclamation-triangle"></i> <span data-translate="disclaimer-title">Clauses de droit d'auteur</span></h2>
+                    <p><strong data-translate="disclaimer-attention">À l'attention des utilisateurs :</strong></p>
+                    <p data-translate="disclaimer-content1">Ce site a été créé avec expertise et effort. Toute tentative de s'approprier son contenu, de le revendiquer comme votre création ou de l'utiliser à des fins commerciales sans permission sera traitée comme une violation flagrante de nos droits. Le plagiat est strictement interdit et aura des conséquences immédiates.Nous protégeons notre travail avec la plus grande fermeté.</p>
+                    
+                    <div class="tip-box">
+                        <p><strong data-translate="disclaimer-warning">N'essayez pas de nous poser des questions en privé. Nous vous ignorerons.</strong></p>
+                    </div>
+                    
+                    <p><strong data-translate="copyright-title">Droits d'auteur et utilisation du contenu :</strong></p>
+                    <p><strong data-translate="copyright-item1">1. Le contenu est notre propriété.</strong></p>
+                    <p data-translate="copyright-content1">Tout ce qui est publié ici est notre propriété exclusive. Il est protégé par le droit d'auteur. Cependant, le partage personnel (par exemple, transférer à un ami ou à une petite communauté) est autorisé. La distribution à des fins commerciales est strictement interdite.</p>
+                    
+                    <p><strong data-translate="copyright-item2">2. Utilisation pour votre cerveau, pas pour votre business.</strong></p>
+                    <p data-translate="copyright-content2">Ce contenu est là pour votre usage personnel, pour vous rendre plus malin. Ne le vendez pas, ne le monétisez pas, ne le réutilisez pas pour votre propre projet commercial.</p>
+                    
+                    <div class="tip-box">
+                        <p><strong data-translate="copyright-warning">En vous abonnant, vous avez accepté ces conditions. Maintenant, agissez en conséquence.</strong></p>
+                    </div>
+                </div>
+
+            </article>
+        </main>
+    </div>
+
+    <button class="back-to-top" aria-label="Retour en haut de la page">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+<script src="JavaScript.js"></script>
+</html>
