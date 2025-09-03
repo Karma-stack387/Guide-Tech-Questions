@@ -47,7 +47,7 @@
                     "author": "Auteur",
                     "author-name": "祐 ☣︎ 𝐊𝐢𝐥𝐥𝐮𝐚_𝐒𝐡𝐢𝐨𝐤𝐚 ☣︎  智",
                     "publish-date": "Date de publication",
-                    "date-value": "02 Septembre 2025",
+                    "date-value": "03 Septembre 2025",
                     "copyright": "© 2025 祐 𝐍𝐮𝐜𝐥𝐞𝐚𝐫 𝐖𝐡𝐢𝐬𝐩𝐞𝐫 智 ❏ ⌜𝐓𝐄𝐂𝐇⌟ ❏. Tous droits réservés. Code source protégé par licence MIT.",
                     
                     // Sections
@@ -195,7 +195,7 @@
                     "author": "Author",
                     "author-name": "祐 ☣︎ 𝐊𝐢𝐥𝐥𝐮𝐚_𝐒𝐡𝐢𝐨𝐤𝐚 ☣︎ 智",
                     "publish-date": "Publication Date",
-                    "date-value": "September 02, 2025",
+                    "date-value": "September 03, 2025",
                     "copyright": "© 2025 祐 𝐍𝐮𝐜𝐥𝐞𝐚𝐫 𝐖𝐡𝐢𝐬𝐩𝐞𝐫 智 ❏ ⌜𝐓𝐄𝐂𝐇⌟ ❏. All rights reserved. Source code protected by MIT license.",
                     
                     // Sections
